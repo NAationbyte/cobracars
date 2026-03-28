@@ -317,7 +317,7 @@
 
     .car-img {
       width: 100%;
-      height: 200px;
+      height: 220px;
       background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
       display: flex;
       align-items: center;
@@ -325,6 +325,12 @@
       font-size: 5rem;
       position: relative;
       overflow: hidden;
+    }
+
+    .car-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .car-img::after {
@@ -949,7 +955,7 @@
   <div class="fleet-grid">
 
     <div class="car-card">
-      <div class="car-img">🚗<div class="car-category">Gazdaságos</div></div>
+      <div class="car-img"><img src="img/corolla.jpg" alt="Toyota Corolla" /><div class="car-category">Gazdaságos</div></div>
       <div class="car-info">
         <div class="car-name">Toyota Corolla</div>
         <div class="car-sub">2023 · Automata · Benzin</div>
@@ -970,7 +976,7 @@
     </div>
 
     <div class="car-card">
-      <div class="car-img">🚙<div class="car-category">SUV</div></div>
+      <div class="car-img"><img src="img/bmw-x5.jpg" alt="BMW X5" /><div class="car-category">SUV</div></div>
       <div class="car-info">
         <div class="car-name">BMW X5</div>
         <div class="car-sub">2023 · Automata · Dízel</div>
@@ -991,7 +997,7 @@
     </div>
 
     <div class="car-card">
-      <div class="car-img">🏎️<div class="car-category">Sport</div></div>
+      <div class="car-img"><img src="img/porsche-911.jpg" alt="Porsche 911" /><div class="car-category">Sport</div></div>
       <div class="car-info">
         <div class="car-name">Porsche 911</div>
         <div class="car-sub">2022 · Automata · Benzin</div>
@@ -1012,7 +1018,7 @@
     </div>
 
     <div class="car-card">
-      <div class="car-img">🚐<div class="car-category">Minivan</div></div>
+      <div class="car-img"><img src="img/mercedes-v.jpg" alt="Mercedes V-Class" /><div class="car-category">Minivan</div></div>
       <div class="car-info">
         <div class="car-name">Mercedes V-Class</div>
         <div class="car-sub">2023 · Automata · Dízel</div>
@@ -1033,7 +1039,7 @@
     </div>
 
     <div class="car-card">
-      <div class="car-img">⚡<div class="car-category">Elektromos</div></div>
+      <div class="car-img"><img src="img/tesla-3.jpg" alt="Tesla Model 3" /><div class="car-category">Elektromos</div></div>
       <div class="car-info">
         <div class="car-name">Tesla Model 3</div>
         <div class="car-sub">2024 · Automata · Elektromos</div>
@@ -1054,7 +1060,7 @@
     </div>
 
     <div class="car-card">
-      <div class="car-img">🖤<div class="car-category">Luxury</div></div>
+      <div class="car-img"><img src="img/mercedes-s.jpg" alt="Mercedes S-Class" /><div class="car-category">Luxury</div></div>
       <div class="car-info">
         <div class="car-name">Mercedes S-Class</div>
         <div class="car-sub">2024 · Automata · Benzin</div>
